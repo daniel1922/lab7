@@ -4,32 +4,124 @@
 		* 3. It will proper responses according to user submitted info.
 		* 4. It will ask user if they want to learn about another student. */	
 
-	/*This application needs 
-	 	* 1. 
-	 	* 2. 
-	 	* 3. */	
+import java.util.Scanner; //import scanner
+import java.util.InputMismatchException; //needed for exception statement
 
-import java.util.Scanner;
-
-public class Students {
-
-		public static void main(String[] args) { //main method
-		System.out.println("Welcome to our Java class.\n"); //welcome message
-		
-		//String array with all students with corresponding number
-		//String array with all the hometown's listed
-		//String array with all the food
-		
-		//which student would you like to learn more about 1-16
-		
-		
-		//array names
-		//array home town
-		//array food
-		
-			
-		
+public class Students { //declare class
 	
+		public static void main(String[] args) { //main method
+		
+			Scanner userInput = new Scanner(System.in);
+			String userCont = "yes";
+			boolean cont = true;
+			
+			int input=0;
+			String yesNo;
+			
+			System.out.println("Welcome to our Java class!");
+		
+			//Ask user question and get user input
+			
+			//start while loop if yes
+			//input exception statement
+			//begin switch statement
+			
+			//case 1
+			//if
+			//if else statement
+			//break
+			
+			//case 2
+			//if
+			//if else statement
+			//break
+			
+			//case 3
+			//if
+			//if else statement
+			//break
+			
+			//case 4
+			//if
+			//if else statement
+			//break
+			
+			//case 5
+			//if
+			//if else statement
+			//break
+			
+			//case 6
+			//if
+			//if else statement
+			//break
+	
+			//case 7
+			//if
+			//if else statement
+			//break
+			
+			//case 8
+			//if
+			//if else statement
+			//break
+			
+			//case 9
+			//if
+			//if else statement
+			//break
+			
+			//case 10
+			//if
+			//if else statement
+			//break
+			
+			//case 11
+			//if
+			//if else statement
+			//break
+			
+			//case 12
+			//if
+			//if else statement
+			//break
+			
+			//case 13
+			//if
+			//if else statement
+			//break
+			
+			//case 14
+			//if
+			//if else statement
+			//break
+			
+			//case 15
+			//if
+			//if else statement
+			//break
+			
+			//case 16
+			//if
+			//if else statement
+			//break
+			
+			//case 17
+			//if
+			//if else statement
+			//break
+			
+			//case 18
+			//if
+			//if else statement
+			//break
+			
+			//case 19
+			//if
+			//if else statement
+			//break
+			
+			//if "no" "good bye"
 	}
 
 } 
