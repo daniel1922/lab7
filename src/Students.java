@@ -14,7 +14,6 @@ public class Students { //declare class
 			Scanner userInput = new Scanner(System.in);
 			String userCont = "yes";
 			boolean cont = true;
-			
 			int input=0;
 			String classMember;
 			
@@ -48,7 +47,8 @@ public class Students { //declare class
 				
 				try{ //Input Exception statement
 				input = userInput.nextInt();
-					}
+				{	}
+				if(input > 21); }
 				catch(InputMismatchException e){
 					System.out.print("That data does not exist. Please try again. Type 'yes' or 'no' to continue");	
 					userInput.nextLine();
