@@ -16,11 +16,44 @@ public class Students { //declare class
 			boolean cont = true;
 			
 			int input=0;
-			String yesNo;
+			String continueYesNo;
 			
 			System.out.println("Welcome to our Java class!");
-		
-			//Ask user question and get user input
+			while(userCont.equals("yes"))	
+			{	//Ask user question and get user input
+				System.out.print("Which student/teacher/administrator/ would you like to learn more about?");
+				System.out.println("(Enter a number 1-19:)");
+				System.out.println("1.Domonique Baul (student)");
+				System.out.println("2.Kevin Baxter (student)");
+				System.out.println("3.Kristen Carethers (student)");
+				System.out.println("4.Jenniefer Cline (student)");
+				System.out.println("5.Kim Driscoll (administrator)");
+				System.out.println("6.Dominique Escoe (student)");
+				System.out.println("7.Elle Folson");
+				System.out.println("8.Tricia Haslinger (administrator)");
+				System.out.println("9.Tyler Hensley (teacher assistant)");
+				System.out.println("10.Yasmine Lee (student)");
+				System.out.println("11.Jennifer Lucas (student)");
+				System.out.println("12.Nicole Mallory (student)");
+				System.out.println("13.Zalika Ockleberry (student)");
+				System.out.println("14.Armani Raleigh (student)");
+				System.out.println("15.Johnny Robinson (student)");
+				System.out.println("16.Daniel Schneider (student)");
+				System.out.println("17.David Smily (student)");
+				System.out.println("18.Kimberli Smith (student)");
+				System.out.println("19.Clark Vaughan (student)");
+				System.out.println("20.Jeseekia Vaughn (teacher)");
+				
+				try{ //Input Exception statement
+				input = userInput.nextInt();
+					}
+				catch(InputMismatchException e){
+					System.out.print("That data does not exist. Please try again. Press enter or type 'hometown'");
+					System.out.println("or type 'favorite food:'");
+					userInput.nextLine();
+					userCont =userInput.nextLine();	
+
+	
 			
 			//start while loop if yes
 			//input exception statement
@@ -122,6 +155,5 @@ public class Students { //declare class
 			//break
 			
 			//if "no" "good bye"
-	}
+	
 
-} 
