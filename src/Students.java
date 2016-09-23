@@ -13,9 +13,9 @@ public class Students { //declare class
 		
 			Scanner userInput = new Scanner(System.in);
 			String userCont = "yes";
+			String classMember;
 			boolean cont = true;
 			int input=0;
-			String classMember;
 			
 			System.out.println("Welcome to our Java class!");
 			
